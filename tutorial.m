@@ -72,6 +72,6 @@ hold on
 plot([2,6,2,6,2,6]);
 
 % You can also set labels and titles of the current figure
-xlabel('y axis label');
+ylabel('y axis label');
 xlabel('x axis label');
 title('Figure 3 with two plots');

@@ -3,6 +3,9 @@ classdef HelloWorld
       Message
    end
    methods
+       function obj = HelloWorld(message)
+           obj.Message = message;
+       end
        function displayMessage(obj)
            obj.displayMsg()
        end 

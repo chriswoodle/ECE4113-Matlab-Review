@@ -1,5 +1,5 @@
-myVar = HelloWorld();
-myVar.Message = "hello class!";
-myVar.displayMessage();
-
 HelloWorld.displaySomething();
+
+myVar = HelloWorld("my message");
+% myVar.Message ==> "my message"
+myVar.displayMessage();
